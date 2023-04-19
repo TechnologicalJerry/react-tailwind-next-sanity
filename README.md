@@ -1,0 +1,1 @@
+# typescript-react-tailwind-next-prisma-postgre
