@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="py-8 px-48">
         <Link href={'/dashboard'}>Go to the Dashboard</Link>
     </main>
   )
