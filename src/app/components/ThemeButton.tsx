@@ -11,5 +11,7 @@ export default function Themebutton() {
         setMounted(true);
     }, []);
 
-    
+    if (!mounted) {
+        return null;
+    }
 }
