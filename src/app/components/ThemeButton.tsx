@@ -6,4 +6,10 @@ import { useEffect, useState } from "react";
 export default function Themebutton() {
     const { setTheme, resolvedTheme } = useTheme();
     const [mounted, setMounted] = useState(false);
+
+    useEffect(() => {
+        setMounted(true);
+    }, []);
+
+    
 }
